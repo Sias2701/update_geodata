@@ -5,10 +5,6 @@ GEOSITE_DAT_URL='https://raw.githubusercontent.com/Loyalsoldier/domain-list-cust
 
 GEODATA_PATH='/usr/local/share/geodat'
 
-GEOIP_TXT_BASE='https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text'
-GEOSITE_TXT_BASE='https://raw.githubusercontent.com/Loyalsoldier/domain-list-custom/release'
-
-
 TEMPDIR=$(mktemp -d)
 TEMPDAT_DIR=$TEMPDIR/tmpdata
 
